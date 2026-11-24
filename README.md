@@ -40,6 +40,12 @@ Preprocessors for Databases(Preprocessor.cpp):
 
 # How to run the program
 In main.cpp, set your input dataset, the corresponding preprocessor, and minimum threshold (e.g. instances* 0.3 for 30% support)
+
+```bash
+g++ -O3 main.cpp FPGrowth.cpp Preprocessor.cpp -o main
+./main
+```
+
 > **Note:** Peak memory tracking in `main.cpp` uses `_msize` (`<malloc.h>`), which targets **Windows (MSVC or MinGW)**
 Example:
 (For iris dataset with 10% support)
@@ -50,4 +56,6 @@ Example:
  ofstream outfile(outputfile_name);
  int instances=get_total_instances(inputfile);
  int min= instances*0.1;
+```
+
 
