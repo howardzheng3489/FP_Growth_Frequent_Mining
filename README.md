@@ -34,7 +34,7 @@ Preprocessors for Databases(Preprocessor.cpp):
 | **Car Evaluation** | preprocess_cars | 6 categorical attributes mapped to `Attribute_Value` | https://archive.ics.uci.edu/dataset/19/car+evaluation
 | **Connect-4** | preprocess_connect4| 42 board positions (`a1`–`g6`) + game outcome| https://archive.ics.uci.edu/dataset/26/connect+4
 | **Chess (KRK)** | preprocess_chess| King/Rook file & rank coordinates + depth of win| https://archive.ics.uci.edu/dataset/23/chess+king+rook+vs+king
-| **Chess (KR-vs-KP)** | preprocess_chess_2 36 board state features + match result| https://archive.ics.uci.edu/dataset/22/chess+king+rook+vs+king+pawn
+| **Chess (KR-vs-KP)** | preprocess_chess_2| 36 board state features + match result| https://archive.ics.uci.edu/dataset/22/chess+king+rook+vs+king+pawn
 
 
 
